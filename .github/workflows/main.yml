@@ -31,6 +31,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         with: 
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
-        asset_path: ESP32-breadboard-Adapter-${{ github.ref }}.gbr.zip
-        asset_name: ESP32-breadboard-Adapter-${{ github.ref }}.gbr.zip
-        asset_content_type: application/zip
+          asset_path: ESP32-breadboard-Adapter-${{ github.ref }}.gbr.zip
+          asset_name: ESP32-breadboard-Adapter-${{ github.ref }}.gbr.zip
+          asset_content_type: application/zip
