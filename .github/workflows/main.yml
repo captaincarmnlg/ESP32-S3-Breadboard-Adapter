@@ -10,7 +10,6 @@ jobs:
     steps:
       - name: zip GBR
         if: startsWith(github.ref, 'refs/tags/')
-        run: ls
         run: zip -r ESP32-breadboard-Adapter-${{ github.ref_name }}.gbr.zip . -i ./ESP32-breadboard-Adapter.gbr
       - name: Create Release 
         if: startsWith(github.ref, 'refs/tags/') 
