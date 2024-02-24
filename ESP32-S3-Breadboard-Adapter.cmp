@@ -1,0 +1,27 @@
+Cmp-Mod V01 Created by PcbNew   date = 2024-02-24T18:42:12+0100
+
+BeginCmp
+TimeStamp = 386c5f64-1dd2-478a-b520-7b617b9e26b1
+Path = 
+Reference = REF**;
+ValeurCmp = ESP32-S3-DevKitC;
+IdModule  = PCM_Espressif:ESP32-S3-DevKitC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5e8b6d48-bf45-4cb6-a10b-9eb424a7bfb6
+Path = 
+Reference = REF**;
+ValeurCmp = PinHeader_1x22_P2.54mm_Vertical;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 72df75a4-fb8d-44f0-8b5c-81ba8a86e027
+Path = 
+Reference = REF**;
+ValeurCmp = PinHeader_1x22_P2.54mm_Vertical;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical;
+EndCmp
+
+EndListe
